@@ -1,0 +1,58 @@
+# Ambientes virtuais
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log e banco de dados local
+*.log
+*.sqlite3
+*.db
+
+# Configurações locais (ex: dotenv)
+*.env
+.env.*
+
+# Arquivos compilados
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Cobertura de testes
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pip tools
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Outros
+instance/
